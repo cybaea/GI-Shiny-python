@@ -1,5 +1,5 @@
 ---
-title: "GI-Shiny-python"
+title: "GI Shiny python"
 ---
 
 This is a minimal demonstration of using Shinylive python.

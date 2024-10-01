@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "GI-Shiny-python",
+    "title": "GI Shiny python",
     "section": "",
     "text": "This is a minimal demonstration of using Shinylive python.\nTry changing this code and running it using the little arrow top right of the editor window. Perhaps something like printing “Hello lovely NAME” instead?\nPoint to note is that this minimal ‘hello world’ type application is a fully interactive online application. It’s that easy.\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| components: [editor, viewer]\n#| layout: vertical\n## file: app.py\nfrom shiny.express import ui, render, input\n\nui.input_text(\"name\", \"Type a name\", value=\"world\")\n\n@render.text\ndef greeting():\n  return f\"Hello {input.name()}!\""
   },
