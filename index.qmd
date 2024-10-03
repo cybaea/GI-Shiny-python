@@ -7,7 +7,9 @@ This is a minimal demonstration of using Shinylive python.
 
 Try changing this code and running it using the little arrow top right of the editor window. Perhaps something like printing "Hello lovely _NAME_" instead or moving the greeting before the input textbox?
 
-Point to note is that this minimal 'hello world' example is a fully interactive online application. It's that easy.
+Point to note is that this minimal 'hello world' example is a fully interactive online application. 
+
+👉 It really is this easy. ✔ 
 
 ```{shinylive-python}
 #| standalone: true
